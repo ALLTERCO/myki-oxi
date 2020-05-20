@@ -7,7 +7,7 @@
 
 #include "MAX30100_PulseOximeter.h"
 
-#define REPORTING_PERIOD_MS 1000
+#define REPORTING_PERIOD_MS 500
 
 PulseOximeter pox;
 uint32_t tsLastReport = 0;
